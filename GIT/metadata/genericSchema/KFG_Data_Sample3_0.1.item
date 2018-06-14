@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_r2K9YN_oEeeSNbmwaIHyjA" comment="connectionComment" label="connectionLabel" dataPackage="_r2K9Yd_oEeeSNbmwaIHyjA"/>
+  <TalendMetadata:GenericPackage xmi:id="_r2K9Yd_oEeeSNbmwaIHyjA" dataManager="_r2K9YN_oEeeSNbmwaIHyjA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_r2K9Yt_oEeeSNbmwaIHyjA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9Y9_oEeeSNbmwaIHyjA" name="PUB_container_box_code" id="1799" label="PUB_container_box_code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9ZN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9Zd_oEeeSNbmwaIHyjA" name="PUB_container_box_en_week" id="1800" label="PUB_container_box_en_week" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9Zt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9Z9_oEeeSNbmwaIHyjA" name="PUB_container_box_st_week" id="1801" label="PUB_container_box_st_week" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9aN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9ad_oEeeSNbmwaIHyjA" name="PUB_container_cc_code" id="1802" label="PUB_container_cc_code" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9at_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9a9_oEeeSNbmwaIHyjA" name="PUB_container_con_area" id="1803" label="PUB_container_con_area" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9bN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9bd_oEeeSNbmwaIHyjA" name="PUB_container_con_code" id="1804" label="PUB_container_con_code" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9bt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9b9_oEeeSNbmwaIHyjA" name="PUB_container_con_desc" id="1805" label="PUB_container_con_desc" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9cN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9cd_oEeeSNbmwaIHyjA" name="PUB_container_con_factor" id="1806" label="PUB_container_con_factor" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9ct_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9c9_oEeeSNbmwaIHyjA" name="PUB_container_con_filler1" id="1807" label="PUB_container_con_filler1" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9dN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9dd_oEeeSNbmwaIHyjA" name="PUB_container_con_filler2" id="1808" label="PUB_container_con_filler2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9dt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9d9_oEeeSNbmwaIHyjA" name="PUB_container_con_g_units" id="1809" label="PUB_container_con_g_units" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9eN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9ed_oEeeSNbmwaIHyjA" name="PUB_container_con_group" id="1810" label="PUB_container_con_group" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9et_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9e9_oEeeSNbmwaIHyjA" name="PUB_container_con_lit" id="1811" label="PUB_container_con_lit" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9fN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9fd_oEeeSNbmwaIHyjA" name="PUB_container_con_organic" id="1812" label="PUB_container_con_organic" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9ft_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9f9_oEeeSNbmwaIHyjA" name="PUB_container_con_per_box" id="1813" label="PUB_container_con_per_box" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9gN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9gd_oEeeSNbmwaIHyjA" name="PUB_container_con_per_layer" id="1814" label="PUB_container_con_per_layer" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9gt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9g9_oEeeSNbmwaIHyjA" name="PUB_container_con_per_rack" id="1815" label="PUB_container_con_per_rack" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9hN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9hd_oEeeSNbmwaIHyjA" name="PUB_container_con_s_units" id="1816" label="PUB_container_con_s_units" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9ht_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9h9_oEeeSNbmwaIHyjA" name="PUB_container_con_status" id="1817" label="PUB_container_con_status" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9iN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9id_oEeeSNbmwaIHyjA" name="PUB_container_con_vol" id="1818" label="PUB_container_con_vol" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9it_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9i9_oEeeSNbmwaIHyjA" name="PUB_container_con_weight" id="1819" label="PUB_container_con_weight" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9jN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9jd_oEeeSNbmwaIHyjA" name="PUB_container_dc_field" id="1820" label="PUB_container_dc_field" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9jt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9j9_oEeeSNbmwaIHyjA" name="PUB_container_labels_per_contain" id="1821" label="PUB_container_labels_per_contain" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9kN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9kd_oEeeSNbmwaIHyjA" name="PUB_container_plants_per_row" id="1822" label="PUB_container_plants_per_row" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9kt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9k9_oEeeSNbmwaIHyjA" name="PUB_container_print_both_sides" id="1823" label="PUB_container_print_both_sides" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9lN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9ld_oEeeSNbmwaIHyjA" name="PUB_container_tag_qty" id="1824" label="PUB_container_tag_qty" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9lt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9l9_oEeeSNbmwaIHyjA" name="PUB_container_unique_id" id="1825" label="PUB_container_unique_id" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9mN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9md_oEeeSNbmwaIHyjA" name="PUB_container_units_per_tray" id="1826" label="PUB_container_units_per_tray" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9mt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9m9_oEeeSNbmwaIHyjA" name="PUB_container_weight_and_measure" id="1827" label="PUB_container_weight_and_measure" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9nN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9nd_oEeeSNbmwaIHyjA" name="PUB_crops_cls_cd" id="1828" label="PUB_crops_cls_cd" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9nt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9n9_oEeeSNbmwaIHyjA" name="PUB_crops_color_cd" id="1829" label="PUB_crops_color_cd" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9oN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9od_oEeeSNbmwaIHyjA" name="PUB_crops_common_name" id="1830" label="PUB_crops_common_name" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9ot_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9o9_oEeeSNbmwaIHyjA" name="PUB_crops_crop_id" id="1831" label="PUB_crops_crop_id" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9pN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9pd_oEeeSNbmwaIHyjA" name="PUB_crops_crop_option" id="1832" label="PUB_crops_crop_option" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9pt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9p9_oEeeSNbmwaIHyjA" name="PUB_crops_crop_type" id="1833" label="PUB_crops_crop_type" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9qN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9qd_oEeeSNbmwaIHyjA" name="PUB_crops_image_url" id="1834" label="PUB_crops_image_url" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9qt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9q9_oEeeSNbmwaIHyjA" name="PUB_crops_image_url_finished" id="1835" label="PUB_crops_image_url_finished" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9rN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9rd_oEeeSNbmwaIHyjA" name="PUB_crops_p_commnts" id="1836" label="PUB_crops_p_commnts" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9rt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9r9_oEeeSNbmwaIHyjA" name="PUB_crops_p_desc" id="1837" label="PUB_crops_p_desc" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9sN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9sd_oEeeSNbmwaIHyjA" name="PUB_crops_p_en_date" id="1838" label="PUB_crops_p_en_date" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9st_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9s9_oEeeSNbmwaIHyjA" name="PUB_crops_p_exp" id="1839" label="PUB_crops_p_exp" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9tN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9td_oEeeSNbmwaIHyjA" name="PUB_crops_p_filler1" id="1840" label="PUB_crops_p_filler1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9tt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9t9_oEeeSNbmwaIHyjA" name="PUB_crops_p_genera" id="1841" label="PUB_crops_p_genera" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9uN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9ud_oEeeSNbmwaIHyjA" name="PUB_crops_p_labels" id="1842" label="PUB_crops_p_labels" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9ut_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9u9_oEeeSNbmwaIHyjA" name="PUB_crops_p_new" id="1843" label="PUB_crops_p_new" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9vN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9vd_oEeeSNbmwaIHyjA" name="PUB_crops_p_new_date" id="1844" label="PUB_crops_p_new_date" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9vt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9v9_oEeeSNbmwaIHyjA" name="PUB_crops_p_number" id="1845" label="PUB_crops_p_number" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9wN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9wd_oEeeSNbmwaIHyjA" name="PUB_crops_p_st_date" id="1846" label="PUB_crops_p_st_date" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9wt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9w9_oEeeSNbmwaIHyjA" name="PUB_crops_pack_type" id="1847" label="PUB_crops_pack_type" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9xN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9xd_oEeeSNbmwaIHyjA" name="PUB_crops_registered" id="1848" label="PUB_crops_registered" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9xt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9x9_oEeeSNbmwaIHyjA" name="PUB_crops_sub_code" id="1849" label="PUB_crops_sub_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9yN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9yd_oEeeSNbmwaIHyjA" name="PUB_crops_trademark" id="1850" label="PUB_crops_trademark" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9yt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9y9_oEeeSNbmwaIHyjA" name="PUB_customer_ar_cust_no" id="1851" label="PUB_customer_ar_cust_no" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9zN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9zd_oEeeSNbmwaIHyjA" name="PUB_customer_bol_default_sort" id="1852" label="PUB_customer_bol_default_sort" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9zt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9z9_oEeeSNbmwaIHyjA" name="PUB_customer_bol_show_barcode" id="1853" label="PUB_customer_bol_show_barcode" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K90N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K90d_oEeeSNbmwaIHyjA" name="PUB_customer_bol_show_pricing" id="1854" label="PUB_customer_bol_show_pricing" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K90t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K909_oEeeSNbmwaIHyjA" name="PUB_customer_contact_code" id="1855" label="PUB_customer_contact_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K91N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K91d_oEeeSNbmwaIHyjA" name="PUB_customer_cur_code" id="1856" label="PUB_customer_cur_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K91t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K919_oEeeSNbmwaIHyjA" name="PUB_customer_cust_added" id="1857" label="PUB_customer_cust_added" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K92N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K92d_oEeeSNbmwaIHyjA" name="PUB_customer_cust_address1" id="1858" label="PUB_customer_cust_address1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K92t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K929_oEeeSNbmwaIHyjA" name="PUB_customer_cust_address2" id="1859" label="PUB_customer_cust_address2" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K93N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K93d_oEeeSNbmwaIHyjA" name="PUB_customer_cust_b2b_company" id="1860" label="PUB_customer_cust_b2b_company" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K93t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K939_oEeeSNbmwaIHyjA" name="PUB_customer_cust_balance" id="1861" label="PUB_customer_cust_balance" length="9" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K94N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K94d_oEeeSNbmwaIHyjA" name="PUB_customer_cust_cell" id="1862" label="PUB_customer_cust_cell" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K94t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K949_oEeeSNbmwaIHyjA" name="PUB_customer_cust_city" id="1863" label="PUB_customer_cust_city" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K95N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K95d_oEeeSNbmwaIHyjA" name="PUB_customer_cust_cntry" id="1864" label="PUB_customer_cust_cntry" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K95t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K959_oEeeSNbmwaIHyjA" name="PUB_customer_cust_consignment" id="1865" label="PUB_customer_cust_consignment" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K96N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K96d_oEeeSNbmwaIHyjA" name="PUB_customer_cust_credit_account" id="1866" label="PUB_customer_cust_credit_account" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K96t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K969_oEeeSNbmwaIHyjA" name="PUB_customer_cust_def_frt" id="1867" label="PUB_customer_cust_def_frt" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K97N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K97d_oEeeSNbmwaIHyjA" name="PUB_customer_cust_default_inv" id="1868" label="PUB_customer_cust_default_inv" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K97t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K979_oEeeSNbmwaIHyjA" name="PUB_customer_cust_default_ship" id="1869" label="PUB_customer_cust_default_ship" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K98N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K98d_oEeeSNbmwaIHyjA" name="PUB_customer_cust_disc" id="1870" label="PUB_customer_cust_disc" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K98t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K989_oEeeSNbmwaIHyjA" name="PUB_customer_cust_email" id="1871" label="PUB_customer_cust_email" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K99N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K99d_oEeeSNbmwaIHyjA" name="PUB_customer_cust_fax" id="1872" label="PUB_customer_cust_fax" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K99t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K999_oEeeSNbmwaIHyjA" name="PUB_customer_cust_filler1" id="1873" label="PUB_customer_cust_filler1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9-N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9-d_oEeeSNbmwaIHyjA" name="PUB_customer_cust_finance" id="1874" label="PUB_customer_cust_finance" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9-t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9-9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_finance_overri" id="1875" label="PUB_customer_cust_finance_overri" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9_N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9_d_oEeeSNbmwaIHyjA" name="PUB_customer_cust_last_act" id="1876" label="PUB_customer_cust_last_act" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K9_t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K9_9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_limit" id="1877" label="PUB_customer_cust_limit" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-AN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Ad_oEeeSNbmwaIHyjA" name="PUB_customer_cust_name" id="1878" label="PUB_customer_cust_name" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-At_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-A9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_no" id="1879" label="PUB_customer_cust_no" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-BN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Bd_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify" id="1880" label="PUB_customer_cust_notify" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Bt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-B9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify_ack" id="1881" label="PUB_customer_cust_notify_ack" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-CN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Cd_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify_back" id="1882" label="PUB_customer_cust_notify_back" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Ct_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-C9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify_bol" id="1883" label="PUB_customer_cust_notify_bol" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-DN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Dd_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify_epicasD" id="1884" label="PUB_customer_cust_notify_epicasD" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Dt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-D9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify_epicase" id="1885" label="PUB_customer_cust_notify_epicase" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-EN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Ed_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify_inv" id="1886" label="PUB_customer_cust_notify_inv" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Et_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-E9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify_invemai" id="1887" label="PUB_customer_cust_notify_invemai" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-FN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Fd_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify_invfax" id="1888" label="PUB_customer_cust_notify_invfax" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Ft_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-F9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify_options" id="1889" label="PUB_customer_cust_notify_options" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-GN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Gd_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify_sta" id="1890" label="PUB_customer_cust_notify_sta" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Gt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-G9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify_staemai" id="1891" label="PUB_customer_cust_notify_staemai" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-HN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Hd_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify_stafax" id="1892" label="PUB_customer_cust_notify_stafax" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Ht_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-H9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify_sub" id="1893" label="PUB_customer_cust_notify_sub" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-IN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Id_oEeeSNbmwaIHyjA" name="PUB_customer_cust_notify_team" id="1894" label="PUB_customer_cust_notify_team" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-It_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-I9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_optional_lic" id="1895" label="PUB_customer_cust_optional_lic" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-JN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Jd_oEeeSNbmwaIHyjA" name="PUB_customer_cust_pay_req" id="1896" label="PUB_customer_cust_pay_req" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Jt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-J9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_pay_req_pct" id="1897" label="PUB_customer_cust_pay_req_pct" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-KN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Kd_oEeeSNbmwaIHyjA" name="PUB_customer_cust_phone" id="1898" label="PUB_customer_cust_phone" length="10" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Kt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-K9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_phone_ext" id="1899" label="PUB_customer_cust_phone_ext" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-LN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Ld_oEeeSNbmwaIHyjA" name="PUB_customer_cust_po_req" id="1900" label="PUB_customer_cust_po_req" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Lt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-L9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_prc_type" id="1901" label="PUB_customer_cust_prc_type" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-MN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Md_oEeeSNbmwaIHyjA" name="PUB_customer_cust_pricing" id="1902" label="PUB_customer_cust_pricing" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Mt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-M9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_print_declared" id="1903" label="PUB_customer_cust_print_declared" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-NN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Nd_oEeeSNbmwaIHyjA" name="PUB_customer_cust_sales_account" id="1904" label="PUB_customer_cust_sales_account" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Nt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-N9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_short" id="1905" label="PUB_customer_cust_short" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-ON_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Od_oEeeSNbmwaIHyjA" name="PUB_customer_cust_state" id="1906" label="PUB_customer_cust_state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Ot_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-O9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_status" id="1907" label="PUB_customer_cust_status" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-PN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Pd_oEeeSNbmwaIHyjA" name="PUB_customer_cust_type" id="1908" label="PUB_customer_cust_type" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Pt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-P9_oEeeSNbmwaIHyjA" name="PUB_customer_cust_web" id="1909" label="PUB_customer_cust_web" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-QN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Qd_oEeeSNbmwaIHyjA" name="PUB_customer_cust_zip" id="1910" label="PUB_customer_cust_zip" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Qt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Q9_oEeeSNbmwaIHyjA" name="PUB_customer_default_ship_doc" id="1911" label="PUB_customer_default_ship_doc" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-RN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Rd_oEeeSNbmwaIHyjA" name="PUB_customer_entry_type" id="1912" label="PUB_customer_entry_type" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Rt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-R9_oEeeSNbmwaIHyjA" name="PUB_customer_frm_number" id="1913" label="PUB_customer_frm_number" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-SN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Sd_oEeeSNbmwaIHyjA" name="PUB_customer_gl_account" id="1914" label="PUB_customer_gl_account" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-St_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-S9_oEeeSNbmwaIHyjA" name="PUB_customer_new_order_status" id="1915" label="PUB_customer_new_order_status" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-TN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Td_oEeeSNbmwaIHyjA" name="PUB_customer_sales_tax_license" id="1916" label="PUB_customer_sales_tax_license" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Tt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-T9_oEeeSNbmwaIHyjA" name="PUB_customer_shipper_format" id="1917" label="PUB_customer_shipper_format" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-UN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Ud_oEeeSNbmwaIHyjA" name="PUB_customer_sig_required" id="1918" label="PUB_customer_sig_required" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Ut_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-U9_oEeeSNbmwaIHyjA" name="PUB_customer_tax_code" id="1919" label="PUB_customer_tax_code" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-VN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Vd_oEeeSNbmwaIHyjA" name="PUB_customer_term_code" id="1920" label="PUB_customer_term_code" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Vt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-V9_oEeeSNbmwaIHyjA" name="PUB_customer_ups_label_form" id="1921" label="PUB_customer_ups_label_form" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-WN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Wd_oEeeSNbmwaIHyjA" name="PUB_customer_user_name" id="1922" label="PUB_customer_user_name" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Wt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-W9_oEeeSNbmwaIHyjA" name="PUB_customer_user_pass" id="1923" label="PUB_customer_user_pass" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-XN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Xd_oEeeSNbmwaIHyjA" name="PUB_customer_v_number" id="1924" label="PUB_customer_v_number" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Xt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-X9_oEeeSNbmwaIHyjA" name="PUB_load_file_dist_id" id="1925" label="PUB_load_file_dist_id" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-YN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Yd_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_app_by" id="1926" label="PUB_load_file_ld_app_by" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Yt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Y9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_app_date" id="1927" label="PUB_load_file_ld_app_date" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-ZN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Zd_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_charge_after" id="1928" label="PUB_load_file_ld_charge_after" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-Zt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-Z9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_crossref" id="1929" label="PUB_load_file_ld_crossref" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-aN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-ad_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_date" id="1930" label="PUB_load_file_ld_date" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-at_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-a9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_driver" id="1931" label="PUB_load_file_ld_driver" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-bN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-bd_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_drop_rate" id="1932" label="PUB_load_file_ld_drop_rate" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-bt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-b9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_drops" id="1933" label="PUB_load_file_ld_drops" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-cN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-cd_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_exp" id="1934" label="PUB_load_file_ld_exp" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-ct_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-c9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_filler1" id="1935" label="PUB_load_file_ld_filler1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-dN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-dd_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_filler2" id="1936" label="PUB_load_file_ld_filler2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-dt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-d9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_filler3" id="1937" label="PUB_load_file_ld_filler3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-eN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-ed_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_fuel_add_calc" id="1938" label="PUB_load_file_ld_fuel_add_calc" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-et_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-e9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_fuel_surchg" id="1939" label="PUB_load_file_ld_fuel_surchg" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-fN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-fd_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_max_carts" id="1940" label="PUB_load_file_ld_max_carts" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-ft_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-f9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_miles" id="1941" label="PUB_load_file_ld_miles" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-gN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-gd_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_notes" id="1942" label="PUB_load_file_ld_notes" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-gt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-g9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_other" id="1943" label="PUB_load_file_ld_other" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-hN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-hd_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_rack_rate" id="1944" label="PUB_load_file_ld_rack_rate" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-ht_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-h9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_rate" id="1945" label="PUB_load_file_ld_rate" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-iN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-id_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_region_rate" id="1946" label="PUB_load_file_ld_region_rate" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-it_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-i9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_return_date" id="1947" label="PUB_load_file_ld_return_date" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-jN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-jd_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_return_time" id="1948" label="PUB_load_file_ld_return_time" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-jt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-j9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_returned_racks" id="1949" label="PUB_load_file_ld_returned_racks" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-kN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-kd_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_round_trip" id="1950" label="PUB_load_file_ld_round_trip" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-kt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-k9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_sales" id="1951" label="PUB_load_file_ld_sales" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-lN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-ld_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_status" id="1952" label="PUB_load_file_ld_status" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-lt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-l9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_time" id="1953" label="PUB_load_file_ld_time" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-mN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-md_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_tractor" id="1954" label="PUB_load_file_ld_tractor" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-mt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-m9_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_unload_fee" id="1955" label="PUB_load_file_ld_unload_fee" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-nN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-nd_oEeeSNbmwaIHyjA" name="PUB_load_file_ld_yw" id="1956" label="PUB_load_file_ld_yw" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-nt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-n9_oEeeSNbmwaIHyjA" name="PUB_load_file_load_grower" id="1957" label="PUB_load_file_load_grower" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-oN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-od_oEeeSNbmwaIHyjA" name="PUB_load_file_load_number" id="1958" label="PUB_load_file_load_number" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-ot_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-o9_oEeeSNbmwaIHyjA" name="PUB_load_file_load_prefix" id="1959" label="PUB_load_file_load_prefix" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-pN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-pd_oEeeSNbmwaIHyjA" name="PUB_load_file_poh_number" id="1960" label="PUB_load_file_poh_number" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-pt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-p9_oEeeSNbmwaIHyjA" name="PUB_load_file_poh_release" id="1961" label="PUB_load_file_poh_release" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-qN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-qd_oEeeSNbmwaIHyjA" name="PUB_load_file_shipping_loc" id="1962" label="PUB_load_file_shipping_loc" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-qt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-q9_oEeeSNbmwaIHyjA" name="PUB_load_file_v_number" id="1963" label="PUB_load_file_v_number" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-rN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-rd_oEeeSNbmwaIHyjA" name="PUB_materials_loc_no" id="1964" label="PUB_materials_loc_no" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-rt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-r9_oEeeSNbmwaIHyjA" name="PUB_materials_matl_avg_cst" id="1965" label="PUB_materials_matl_avg_cst" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-sN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-sd_oEeeSNbmwaIHyjA" name="PUB_materials_matl_cost" id="1966" label="PUB_materials_matl_cost" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-st_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-s9_oEeeSNbmwaIHyjA" name="PUB_materials_matl_cycl_cd" id="1967" label="PUB_materials_matl_cycl_cd" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-tN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-td_oEeeSNbmwaIHyjA" name="PUB_materials_matl_cycl_dt" id="1968" label="PUB_materials_matl_cycl_dt" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-tt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-t9_oEeeSNbmwaIHyjA" name="PUB_materials_matl_desc" id="1969" label="PUB_materials_matl_desc" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-uN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-ud_oEeeSNbmwaIHyjA" name="PUB_materials_matl_en_week" id="1970" label="PUB_materials_matl_en_week" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-ut_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-u9_oEeeSNbmwaIHyjA" name="PUB_materials_matl_forms" id="1971" label="PUB_materials_matl_forms" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-vN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-vd_oEeeSNbmwaIHyjA" name="PUB_materials_matl_image" id="1972" label="PUB_materials_matl_image" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-vt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-v9_oEeeSNbmwaIHyjA" name="PUB_materials_matl_inv" id="1973" label="PUB_materials_matl_inv" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-wN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-wd_oEeeSNbmwaIHyjA" name="PUB_materials_matl_large_image" id="1974" label="PUB_materials_matl_large_image" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-wt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-w9_oEeeSNbmwaIHyjA" name="PUB_materials_matl_limit_extra" id="1975" label="PUB_materials_matl_limit_extra" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-xN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-xd_oEeeSNbmwaIHyjA" name="PUB_materials_matl_no" id="1976" label="PUB_materials_matl_no" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-xt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-x9_oEeeSNbmwaIHyjA" name="PUB_materials_matl_on_hnd" id="1977" label="PUB_materials_matl_on_hnd" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-yN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-yd_oEeeSNbmwaIHyjA" name="PUB_materials_matl_on_ord" id="1978" label="PUB_materials_matl_on_ord" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-yt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-y9_oEeeSNbmwaIHyjA" name="PUB_materials_matl_per_box" id="1979" label="PUB_materials_matl_per_box" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-zN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-zd_oEeeSNbmwaIHyjA" name="PUB_materials_matl_per_rack" id="1980" label="PUB_materials_matl_per_rack" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-zt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-z9_oEeeSNbmwaIHyjA" name="PUB_materials_matl_price" id="1981" label="PUB_materials_matl_price" length="7" precision="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-0N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-0d_oEeeSNbmwaIHyjA" name="PUB_materials_matl_qty_per" id="1982" label="PUB_materials_matl_qty_per" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-0t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-09_oEeeSNbmwaIHyjA" name="PUB_materials_matl_reorder" id="1983" label="PUB_materials_matl_reorder" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-1N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-1d_oEeeSNbmwaIHyjA" name="PUB_materials_matl_st_week" id="1984" label="PUB_materials_matl_st_week" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-1t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-19_oEeeSNbmwaIHyjA" name="PUB_materials_matl_status" id="1985" label="PUB_materials_matl_status" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-2N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-2d_oEeeSNbmwaIHyjA" name="PUB_materials_matl_taxable" id="1986" label="PUB_materials_matl_taxable" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-2t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-29_oEeeSNbmwaIHyjA" name="PUB_materials_matl_thumb_image" id="1987" label="PUB_materials_matl_thumb_image" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-3N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-3d_oEeeSNbmwaIHyjA" name="PUB_materials_matl_typ_cd" id="1988" label="PUB_materials_matl_typ_cd" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-3t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-39_oEeeSNbmwaIHyjA" name="PUB_materials_matl_type" id="1989" label="PUB_materials_matl_type" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-4N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-4d_oEeeSNbmwaIHyjA" name="PUB_materials_matl_u_m" id="1990" label="PUB_materials_matl_u_m" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-4t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-49_oEeeSNbmwaIHyjA" name="PUB_materials_prd_line" id="1991" label="PUB_materials_prd_line" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-5N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-5d_oEeeSNbmwaIHyjA" name="PUB_materials_price_cd" id="1992" label="PUB_materials_price_cd" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-5t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-59_oEeeSNbmwaIHyjA" name="PUB_materials_price_cd2" id="1993" label="PUB_materials_price_cd2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-6N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-6d_oEeeSNbmwaIHyjA" name="PUB_materials_price_cd_starts" id="1994" label="PUB_materials_price_cd_starts" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-6t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-69_oEeeSNbmwaIHyjA" name="PUB_materials_sub_code" id="1995" label="PUB_materials_sub_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-7N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-7d_oEeeSNbmwaIHyjA" name="PUB_materials_vol_code" id="1996" label="PUB_materials_vol_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-7t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-79_oEeeSNbmwaIHyjA" name="PUB_oe_head_actual_exchange_rate" id="1997" label="PUB_oe_head_actual_exchange_rate" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-8N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-8d_oEeeSNbmwaIHyjA" name="PUB_oe_head_air_carrier" id="1998" label="PUB_oe_head_air_carrier" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-8t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-89_oEeeSNbmwaIHyjA" name="PUB_oe_head_blanket_status" id="1999" label="PUB_oe_head_blanket_status" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-9N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-9d_oEeeSNbmwaIHyjA" name="PUB_oe_head_cart_id" id="2000" label="PUB_oe_head_cart_id" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-9t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-99_oEeeSNbmwaIHyjA" name="PUB_oe_head_contact_code" id="2001" label="PUB_oe_head_contact_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K--N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K--d_oEeeSNbmwaIHyjA" name="PUB_oe_head_cust_no" id="2002" label="PUB_oe_head_cust_no" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K--t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K--9_oEeeSNbmwaIHyjA" name="PUB_oe_head_eorderno" id="2003" label="PUB_oe_head_eorderno" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-_N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-_d_oEeeSNbmwaIHyjA" name="PUB_oe_head_exchange_rate" id="2004" label="PUB_oe_head_exchange_rate" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K-_t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K-_9_oEeeSNbmwaIHyjA" name="PUB_oe_head_exp_date" id="2005" label="PUB_oe_head_exp_date" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_AN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Ad_oEeeSNbmwaIHyjA" name="PUB_oe_head_exp_time" id="2006" label="PUB_oe_head_exp_time" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_At_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_A9_oEeeSNbmwaIHyjA" name="PUB_oe_head_export_batch_no" id="2007" label="PUB_oe_head_export_batch_no" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_BN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Bd_oEeeSNbmwaIHyjA" name="PUB_oe_head_hub_code" id="2008" label="PUB_oe_head_hub_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Bt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_B9_oEeeSNbmwaIHyjA" name="PUB_oe_head_internal_contact_cod" id="2009" label="PUB_oe_head_internal_contact_cod" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_CN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Cd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oe_exch_code" id="2010" label="PUB_oe_head_oe_exch_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Ct_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_C9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oe_exch_ratio" id="2011" label="PUB_oe_head_oe_exch_ratio" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_DN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Dd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_act_ship" id="2012" label="PUB_oe_head_oeh_act_ship" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Dt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_D9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_act_time" id="2013" label="PUB_oe_head_oeh_act_time" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_EN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Ed_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_add_by" id="2014" label="PUB_oe_head_oeh_add_by" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Et_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_E9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_added" id="2015" label="PUB_oe_head_oeh_added" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_FN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Fd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_added_time" id="2016" label="PUB_oe_head_oeh_added_time" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Ft_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_F9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_address1" id="2017" label="PUB_oe_head_oeh_address1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_GN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Gd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_address2" id="2018" label="PUB_oe_head_oeh_address2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Gt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_G9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_air_com" id="2019" label="PUB_oe_head_oeh_air_com" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_HN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Hd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_air_dest" id="2020" label="PUB_oe_head_oeh_air_dest" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Ht_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_H9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_air_flag" id="2021" label="PUB_oe_head_oeh_air_flag" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_IN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Id_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_air_from" id="2022" label="PUB_oe_head_oeh_air_from" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_It_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_I9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_air_no" id="2023" label="PUB_oe_head_oeh_air_no" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_JN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Jd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_alt_addr" id="2024" label="PUB_oe_head_oeh_alt_addr" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Jt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_J9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_alt_frt" id="2025" label="PUB_oe_head_oeh_alt_frt" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_KN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Kd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_apply_to" id="2026" label="PUB_oe_head_oeh_apply_to" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Kt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_K9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_boxes" id="2027" label="PUB_oe_head_oeh_boxes" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_LN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Ld_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_city" id="2028" label="PUB_oe_head_oeh_city" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Lt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_L9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_confirm_cust" id="2029" label="PUB_oe_head_oeh_confirm_cust" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_MN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Md_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_confirm_vend" id="2030" label="PUB_oe_head_oeh_confirm_vend" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Mt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_M9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_country" id="2031" label="PUB_oe_head_oeh_country" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_NN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Nd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_date" id="2032" label="PUB_oe_head_oeh_date" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Nt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_N9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_discount" id="2033" label="PUB_oe_head_oeh_discount" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_ON_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Od_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_drop_alt" id="2034" label="PUB_oe_head_oeh_drop_alt" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Ot_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_O9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_drop_ship" id="2035" label="PUB_oe_head_oeh_drop_ship" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_PN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Pd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_dsc_perc" id="2036" label="PUB_oe_head_oeh_dsc_perc" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Pt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_P9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_edi" id="2037" label="PUB_oe_head_oeh_edi" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_QN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Qd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_edi_status" id="2038" label="PUB_oe_head_oeh_edi_status" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Qt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Q9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_filler1" id="2039" label="PUB_oe_head_oeh_filler1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_RN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Rd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_freight" id="2040" label="PUB_oe_head_oeh_freight" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Rt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_R9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_frt_brok" id="2041" label="PUB_oe_head_oeh_frt_brok" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_SN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Sd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_frt_cd" id="2042" label="PUB_oe_head_oeh_frt_cd" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_St_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_S9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_frt_paid" id="2043" label="PUB_oe_head_oeh_frt_paid" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_TN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Td_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_frt_reg" id="2044" label="PUB_oe_head_oeh_frt_reg" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Tt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_T9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_inv_date" id="2045" label="PUB_oe_head_oeh_inv_date" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_UN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Ud_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_inv_no" id="2046" label="PUB_oe_head_oeh_inv_no" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Ut_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_U9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_load_no" id="2047" label="PUB_oe_head_oeh_load_no" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_VN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Vd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_load_seq" id="2048" label="PUB_oe_head_oeh_load_seq" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Vt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_V9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_load_status" id="2049" label="PUB_oe_head_oeh_load_status" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_WN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Wd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_load_yw" id="2050" label="PUB_oe_head_oeh_load_yw" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Wt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_W9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_master_boxes" id="2051" label="PUB_oe_head_oeh_master_boxes" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_XN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Xd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_master_no" id="2052" label="PUB_oe_head_oeh_master_no" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Xt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_X9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_miles" id="2053" label="PUB_oe_head_oeh_miles" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_YN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Yd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_misc" id="2054" label="PUB_oe_head_oeh_misc" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Yt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Y9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_misc_lit" id="2055" label="PUB_oe_head_oeh_misc_lit" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_ZN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Zd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_no_subs" id="2056" label="PUB_oe_head_oeh_no_subs" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_Zt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_Z9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_notes" id="2057" label="PUB_oe_head_oeh_notes" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_aN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_ad_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_number" id="2058" label="PUB_oe_head_oeh_number" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_at_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_a9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_orig_no" id="2059" label="PUB_oe_head_oeh_orig_no" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_bN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_bd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_orig_rel" id="2060" label="PUB_oe_head_oeh_orig_rel" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_bt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_b9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_placed" id="2061" label="PUB_oe_head_oeh_placed" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_cN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_cd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_po_no" id="2062" label="PUB_oe_head_oeh_po_no" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_ct_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_c9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_posted_frt" id="2063" label="PUB_oe_head_oeh_posted_frt" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_dN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_dd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_price" id="2064" label="PUB_oe_head_oeh_price" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_dt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_d9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_quantity" id="2065" label="PUB_oe_head_oeh_quantity" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_eN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_ed_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_racks" id="2066" label="PUB_oe_head_oeh_racks" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_et_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_e9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_racks_dec" id="2067" label="PUB_oe_head_oeh_racks_dec" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_fN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_fd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_recalc_boxes" id="2068" label="PUB_oe_head_oeh_recalc_boxes" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_ft_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_f9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_recalc_frt" id="2069" label="PUB_oe_head_oeh_recalc_frt" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_gN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_gd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_region" id="2070" label="PUB_oe_head_oeh_region" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_gt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_g9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_rel_type" id="2071" label="PUB_oe_head_oeh_rel_type" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_hN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_hd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_release" id="2072" label="PUB_oe_head_oeh_release" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_ht_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_h9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_ship_by" id="2073" label="PUB_oe_head_oeh_ship_by" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_iN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_id_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_ship_lit" id="2074" label="PUB_oe_head_oeh_ship_lit" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_it_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_i9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_ship_yw" id="2075" label="PUB_oe_head_oeh_ship_yw" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_jN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_jd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_shipping_loc" id="2076" label="PUB_oe_head_oeh_shipping_loc" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_jt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_j9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_shp_date" id="2077" label="PUB_oe_head_oeh_shp_date" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_kN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_kd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_shp_inst" id="2078" label="PUB_oe_head_oeh_shp_inst" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_kt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_k9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_shp_week" id="2079" label="PUB_oe_head_oeh_shp_week" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_lN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_ld_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_spec" id="2080" label="PUB_oe_head_oeh_spec" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_lt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_l9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_state" id="2081" label="PUB_oe_head_oeh_state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_mN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_md_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_status" id="2082" label="PUB_oe_head_oeh_status" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_mt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_m9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_tag_exchange" id="2083" label="PUB_oe_head_oeh_tag_exchange" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_nN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_nd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_tags" id="2084" label="PUB_oe_head_oeh_tags" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_nt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_n9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_tracking_no" id="2085" label="PUB_oe_head_oeh_tracking_no" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_oN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_od_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_type" id="2086" label="PUB_oe_head_oeh_type" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_ot_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_o9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_units" id="2087" label="PUB_oe_head_oeh_units" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_pN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_pd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_vol_type" id="2088" label="PUB_oe_head_oeh_vol_type" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_pt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_p9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_volume" id="2089" label="PUB_oe_head_oeh_volume" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_qN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_qd_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_weight" id="2090" label="PUB_oe_head_oeh_weight" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_qt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_q9_oEeeSNbmwaIHyjA" name="PUB_oe_head_oeh_zipcode" id="2091" label="PUB_oe_head_oeh_zipcode" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_rN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_rd_oEeeSNbmwaIHyjA" name="PUB_oe_head_orig_exp_date" id="2092" label="PUB_oe_head_orig_exp_date" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_rt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_r9_oEeeSNbmwaIHyjA" name="PUB_oe_head_orig_exp_time" id="2093" label="PUB_oe_head_orig_exp_time" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_sN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_sd_oEeeSNbmwaIHyjA" name="PUB_oe_head_orig_load_seq" id="2094" label="PUB_oe_head_orig_load_seq" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_st_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_s9_oEeeSNbmwaIHyjA" name="PUB_oe_head_posted_exchange_rate" id="2095" label="PUB_oe_head_posted_exchange_rate" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_tN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_td_oEeeSNbmwaIHyjA" name="PUB_oe_head_reas_code" id="2096" label="PUB_oe_head_reas_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_tt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_t9_oEeeSNbmwaIHyjA" name="PUB_oe_head_ship_desc" id="2097" label="PUB_oe_head_ship_desc" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_uN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_ud_oEeeSNbmwaIHyjA" name="PUB_oe_head_ship_to" id="2098" label="PUB_oe_head_ship_to" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_ut_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_u9_oEeeSNbmwaIHyjA" name="PUB_oe_head_shp_via" id="2099" label="PUB_oe_head_shp_via" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_vN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_vd_oEeeSNbmwaIHyjA" name="PUB_oe_head_tax_code" id="2100" label="PUB_oe_head_tax_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_vt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_v9_oEeeSNbmwaIHyjA" name="PUB_oe_head_term_code" id="2101" label="PUB_oe_head_term_code" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_wN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_wd_oEeeSNbmwaIHyjA" name="PUB_oe_head_v_number" id="2102" label="PUB_oe_head_v_number" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_wt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_w9_oEeeSNbmwaIHyjA" name="PUB_oe_line_blnk_po_no" id="2103" label="PUB_oe_line_blnk_po_no" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_xN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_xd_oEeeSNbmwaIHyjA" name="PUB_oe_line_box_id" id="2104" label="PUB_oe_line_box_id" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_xt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_x9_oEeeSNbmwaIHyjA" name="PUB_oe_line_con_code" id="2105" label="PUB_oe_line_con_code" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_yN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_yd_oEeeSNbmwaIHyjA" name="PUB_oe_line_contract_no" id="2106" label="PUB_oe_line_contract_no" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_yt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_y9_oEeeSNbmwaIHyjA" name="PUB_oe_line_cust_item_sku" id="2107" label="PUB_oe_line_cust_item_sku" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_zN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_zd_oEeeSNbmwaIHyjA" name="PUB_oe_line_cust_no" id="2108" label="PUB_oe_line_cust_no" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_zt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_z9_oEeeSNbmwaIHyjA" name="PUB_oe_line_edi_ship_to" id="2109" label="PUB_oe_line_edi_ship_to" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_0N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_0d_oEeeSNbmwaIHyjA" name="PUB_oe_line_frm_number" id="2110" label="PUB_oe_line_frm_number" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_0t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_09_oEeeSNbmwaIHyjA" name="PUB_oe_line_genera_id" id="2111" label="PUB_oe_line_genera_id" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_1N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_1d_oEeeSNbmwaIHyjA" name="PUB_oe_line_gift_message" id="2112" label="PUB_oe_line_gift_message" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_1t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_19_oEeeSNbmwaIHyjA" name="PUB_oe_line_last_ack_price" id="2113" label="PUB_oe_line_last_ack_price" length="5" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_2N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_2d_oEeeSNbmwaIHyjA" name="PUB_oe_line_last_ack_qty" id="2114" label="PUB_oe_line_last_ack_qty" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_2t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_29_oEeeSNbmwaIHyjA" name="PUB_oe_line_loc_no" id="2115" label="PUB_oe_line_loc_no" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_3N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_3d_oEeeSNbmwaIHyjA" name="PUB_oe_line_matl_no" id="2116" label="PUB_oe_line_matl_no" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_3t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_39_oEeeSNbmwaIHyjA" name="PUB_oe_line_oeh_bck_ord" id="2117" label="PUB_oe_line_oeh_bck_ord" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_4N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_4d_oEeeSNbmwaIHyjA" name="PUB_oe_line_oeh_mst_blank" id="2118" label="PUB_oe_line_oeh_mst_blank" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_4t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_49_oEeeSNbmwaIHyjA" name="PUB_oe_line_oeh_number" id="2119" label="PUB_oe_line_oeh_number" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_5N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_5d_oEeeSNbmwaIHyjA" name="PUB_oe_line_oeh_release" id="2120" label="PUB_oe_line_oeh_release" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_5t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_59_oEeeSNbmwaIHyjA" name="PUB_oe_line_oeh_type" id="2121" label="PUB_oe_line_oeh_type" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_6N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_6d_oEeeSNbmwaIHyjA" name="PUB_oe_line_oeh_vol_type" id="2122" label="PUB_oe_line_oeh_vol_type" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_6t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_69_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_back_flag" id="2123" label="PUB_oe_line_oel_back_flag" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_7N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_7d_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_bck_rel" id="2124" label="PUB_oe_line_oel_bck_rel" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_7t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_79_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_bck_seq" id="2125" label="PUB_oe_line_oel_bck_seq" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_8N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_8d_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_boxes" id="2126" label="PUB_oe_line_oel_boxes" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_8t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_89_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_broker_seq" id="2127" label="PUB_oe_line_oel_broker_seq" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_9N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_9d_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_cmp_flag" id="2128" label="PUB_oe_line_oel_cmp_flag" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_9t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_99_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_com_type" id="2129" label="PUB_oe_line_oel_com_type" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_-N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_-d_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_comment" id="2130" label="PUB_oe_line_oel_comment" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K_-t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K_-9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_con_back" id="2131" label="PUB_oe_line_oel_con_back" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K__N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K__d_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_con_ord" id="2132" label="PUB_oe_line_oel_con_ord" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2K__t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2K__9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_con_rel" id="2133" label="PUB_oe_line_oel_con_rel" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAAN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAAd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_con_req" id="2134" label="PUB_oe_line_oel_con_req" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAAt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAA9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_con_ship" id="2135" label="PUB_oe_line_oel_con_ship" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LABN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LABd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_desc" id="2136" label="PUB_oe_line_oel_desc" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LABt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAB9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_edi_item" id="2137" label="PUB_oe_line_oel_edi_item" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LACN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LACd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_eod" id="2138" label="PUB_oe_line_oel_eod" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LACt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAC9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_extra" id="2139" label="PUB_oe_line_oel_extra" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LADN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LADd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_filler1" id="2140" label="PUB_oe_line_oel_filler1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LADt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAD9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_filler2" id="2141" label="PUB_oe_line_oel_filler2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAEN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAEd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_from_blanket" id="2142" label="PUB_oe_line_oel_from_blanket" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAEt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAE9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_inv_date" id="2143" label="PUB_oe_line_oel_inv_date" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAFN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAFd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_license" id="2144" label="PUB_oe_line_oel_license" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAFt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAF9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_partial" id="2145" label="PUB_oe_line_oel_partial" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAGN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAGd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_price" id="2146" label="PUB_oe_line_oel_price" length="5" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAGt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAG9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_price_type" id="2147" label="PUB_oe_line_oel_price_type" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAHN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAHd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_qty_back" id="2148" label="PUB_oe_line_oel_qty_back" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAHt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAH9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_qty_ord" id="2149" label="PUB_oe_line_oel_qty_ord" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAIN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAId_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_qty_rel" id="2150" label="PUB_oe_line_oel_qty_rel" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAIt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAI9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_qty_ship" id="2151" label="PUB_oe_line_oel_qty_ship" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAJN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAJd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_re_ship" id="2152" label="PUB_oe_line_oel_re_ship" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAJt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAJ9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_rel_from" id="2153" label="PUB_oe_line_oel_rel_from" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAKN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAKd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_req_status" id="2154" label="PUB_oe_line_oel_req_status" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAKt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAK9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_reship_qty" id="2155" label="PUB_oe_line_oel_reship_qty" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LALN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LALd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_seq" id="2156" label="PUB_oe_line_oel_seq" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LALt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAL9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_ship_yw" id="2157" label="PUB_oe_line_oel_ship_yw" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAMN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAMd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_shipper_seq" id="2158" label="PUB_oe_line_oel_shipper_seq" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAMt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAM9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_shp_date" id="2159" label="PUB_oe_line_oel_shp_date" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LANN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LANd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_shp_week" id="2160" label="PUB_oe_line_oel_shp_week" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LANt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAN9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_status" id="2161" label="PUB_oe_line_oel_status" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAON_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAOd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_sub_con" id="2162" label="PUB_oe_line_oel_sub_con" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAOt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAO9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_sub_date" id="2163" label="PUB_oe_line_oel_sub_date" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAPN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAPd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_sub_flag" id="2164" label="PUB_oe_line_oel_sub_flag" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAPt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAP9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_sub_item" id="2165" label="PUB_oe_line_oel_sub_item" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAQN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAQd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_sub_yw" id="2166" label="PUB_oe_line_oel_sub_yw" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAQt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAQ9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_tag_exchange" id="2167" label="PUB_oe_line_oel_tag_exchange" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LARN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LARd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_tags" id="2168" label="PUB_oe_line_oel_tags" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LARt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAR9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_um" id="2169" label="PUB_oe_line_oel_um" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LASN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LASd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_um_qty" id="2170" label="PUB_oe_line_oel_um_qty" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LASt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAS9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_units_suspend" id="2171" label="PUB_oe_line_oel_units_suspend" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LATN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LATd_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_vol_levl" id="2172" label="PUB_oe_line_oel_vol_levl" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LATt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAT9_oEeeSNbmwaIHyjA" name="PUB_oe_line_oel_warning" id="2173" label="PUB_oe_line_oel_warning" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAUN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAUd_oEeeSNbmwaIHyjA" name="PUB_oe_line_p_number" id="2174" label="PUB_oe_line_p_number" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAUt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAU9_oEeeSNbmwaIHyjA" name="PUB_oe_line_po_confirm" id="2175" label="PUB_oe_line_po_confirm" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAVN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAVd_oEeeSNbmwaIHyjA" name="PUB_oe_line_prd_line" id="2176" label="PUB_oe_line_prd_line" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAVt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAV9_oEeeSNbmwaIHyjA" name="PUB_oe_line_price_cd" id="2177" label="PUB_oe_line_price_cd" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAWN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAWd_oEeeSNbmwaIHyjA" name="PUB_oe_line_promo_code" id="2178" label="PUB_oe_line_promo_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAWt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAW9_oEeeSNbmwaIHyjA" name="PUB_oe_line_qty_per_box" id="2179" label="PUB_oe_line_qty_per_box" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAXN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAXd_oEeeSNbmwaIHyjA" name="PUB_oe_line_reas_code" id="2180" label="PUB_oe_line_reas_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAXt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAX9_oEeeSNbmwaIHyjA" name="PUB_oe_line_ship_to" id="2181" label="PUB_oe_line_ship_to" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAYN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAYd_oEeeSNbmwaIHyjA" name="PUB_oe_line_type_code" id="2182" label="PUB_oe_line_type_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAYt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAY9_oEeeSNbmwaIHyjA" name="PUB_oe_line_upc_code" id="2183" label="PUB_oe_line_upc_code" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAZN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAZd_oEeeSNbmwaIHyjA" name="PUB_oe_line_v_number" id="2184" label="PUB_oe_line_v_number" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAZt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAZ9_oEeeSNbmwaIHyjA" name="PUB_oe_line_vol_code" id="2185" label="PUB_oe_line_vol_code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAaN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAad_oEeeSNbmwaIHyjA" name="PUB_prod_line_cst_cat" id="2186" label="PUB_prod_line_cst_cat" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAat_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAa9_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_cogs_account" id="2187" label="PUB_prod_line_prd_cogs_account" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAbN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAbd_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_credit_acct" id="2188" label="PUB_prod_line_prd_credit_acct" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAbt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAb9_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_desc" id="2189" label="PUB_prod_line_prd_desc" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAcN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAcd_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_e_week" id="2190" label="PUB_prod_line_prd_e_week" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAct_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAc9_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_early" id="2191" label="PUB_prod_line_prd_early" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAdN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAdd_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_exp_acct" id="2192" label="PUB_prod_line_prd_exp_acct" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAdt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAd9_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_inv_asset_acct" id="2193" label="PUB_prod_line_prd_inv_asset_acct" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAeN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAed_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_line" id="2194" label="PUB_prod_line_prd_line" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAet_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAe9_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_prc_en" id="2195" label="PUB_prod_line_prd_prc_en" length="43" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAfN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAfd_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_prc_st" id="2196" label="PUB_prod_line_prd_prc_st" length="43" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAft_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAf9_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_prc_year" id="2197" label="PUB_prod_line_prd_prc_year" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAgN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAgd_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_roy_acct" id="2198" label="PUB_prod_line_prd_roy_acct" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAgt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAg9_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_roy_cat" id="2199" label="PUB_prod_line_prd_roy_cat" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAhN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAhd_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_s_week" id="2200" label="PUB_prod_line_prd_s_week" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAht_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAh9_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_sal_acct" id="2201" label="PUB_prod_line_prd_sal_acct" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAiN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAid_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_sea_en" id="2202" label="PUB_prod_line_prd_sea_en" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAit_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAi9_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_sea_st" id="2203" label="PUB_prod_line_prd_sea_st" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAjN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAjd_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_seasons" id="2204" label="PUB_prod_line_prd_seasons" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAjt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAj9_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_status" id="2205" label="PUB_prod_line_prd_status" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAkN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAkd_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_type" id="2206" label="PUB_prod_line_prd_type" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAkt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAk9_oEeeSNbmwaIHyjA" name="PUB_prod_line_prd_wip_account" id="2207" label="PUB_prod_line_prd_wip_account" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAlN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAld_oEeeSNbmwaIHyjA" name="PUB_prod_line_prod_e_ship" id="2208" label="PUB_prod_line_prod_e_ship" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAlt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAl9_oEeeSNbmwaIHyjA" name="PUB_prod_line_prod_s_ship" id="2209" label="PUB_prod_line_prod_s_ship" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAmN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAmd_oEeeSNbmwaIHyjA" name="PUB_shipto_cart_id" id="2210" label="PUB_shipto_cart_id" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAmt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAm9_oEeeSNbmwaIHyjA" name="PUB_shipto_cht_country" id="2211" label="PUB_shipto_cht_country" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAnN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAnd_oEeeSNbmwaIHyjA" name="PUB_shipto_contact_code" id="2212" label="PUB_shipto_contact_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAnt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAn9_oEeeSNbmwaIHyjA" name="PUB_shipto_delivery_close_time" id="2213" label="PUB_shipto_delivery_close_time" length="62" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAoN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAod_oEeeSNbmwaIHyjA" name="PUB_shipto_delivery_min_time" id="2214" label="PUB_shipto_delivery_min_time" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LAot_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LAo9_oEeeSNbmwaIHyjA" name="PUB_shipto_delivery_open_time" id="2215" label="PUB_shipto_delivery_open_time" length="62" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkcN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkcd_oEeeSNbmwaIHyjA" name="PUB_shipto_internal_contact_code" id="2216" label="PUB_shipto_internal_contact_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkct_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkc9_oEeeSNbmwaIHyjA" name="PUB_shipto_ship_to" id="2217" label="PUB_shipto_ship_to" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkdN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkdd_oEeeSNbmwaIHyjA" name="PUB_shipto_shipping_loc" id="2218" label="PUB_shipto_shipping_loc" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkdt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkd9_oEeeSNbmwaIHyjA" name="PUB_shipto_shp_via" id="2219" label="PUB_shipto_shp_via" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkeN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lked_oEeeSNbmwaIHyjA" name="PUB_shipto_shp_via_2" id="2220" label="PUB_shipto_shp_via_2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lket_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lke9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_added" id="2221" label="PUB_shipto_sht_added" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkfN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkfd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_address1" id="2222" label="PUB_shipto_sht_address1" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkft_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkf9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_address2" id="2223" label="PUB_shipto_sht_address2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkgN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkgd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_airport" id="2224" label="PUB_shipto_sht_airport" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkgt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkg9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_alt_no" id="2225" label="PUB_shipto_sht_alt_no" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkhN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkhd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_attention" id="2226" label="PUB_shipto_sht_attention" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkht_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkh9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_cell" id="2227" label="PUB_shipto_sht_cell" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkiN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkid_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_city" id="2228" label="PUB_shipto_sht_city" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkit_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lki9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_declared" id="2229" label="PUB_shipto_sht_declared" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkjN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkjd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_def_frt" id="2230" label="PUB_shipto_sht_def_frt" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkjt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkj9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_direct" id="2231" label="PUB_shipto_sht_direct" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkkN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkkd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_email" id="2232" label="PUB_shipto_sht_email" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkkt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkk9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_fax" id="2233" label="PUB_shipto_sht_fax" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LklN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkld_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_filler1" id="2234" label="PUB_shipto_sht_filler1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lklt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkl9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_instr" id="2235" label="PUB_shipto_sht_instr" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkmN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkmd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_last_act" id="2236" label="PUB_shipto_sht_last_act" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkmt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkm9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_lat" id="2237" label="PUB_shipto_sht_lat" length="8" precision="6" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LknN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lknd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_leave_racks" id="2238" label="PUB_shipto_sht_leave_racks" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lknt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkn9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_length_limit" id="2239" label="PUB_shipto_sht_length_limit" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkoN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkod_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_long" id="2240" label="PUB_shipto_sht_long" length="8" precision="5" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkot_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lko9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_mailing_alt_no" id="2241" label="PUB_shipto_sht_mailing_alt_no" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkpN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkpd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_name" id="2242" label="PUB_shipto_sht_name" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkpt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkp9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_notify" id="2243" label="PUB_shipto_sht_notify" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkqN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkqd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_notify_ASN" id="2244" label="PUB_shipto_sht_notify_ASN" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkqt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkq9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_notify_ack" id="2245" label="PUB_shipto_sht_notify_ack" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkrN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkrd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_notify_back" id="2246" label="PUB_shipto_sht_notify_back" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkrt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkr9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_notify_bol" id="2247" label="PUB_shipto_sht_notify_bol" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LksN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lksd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_notify_ePicasemai" id="2248" label="PUB_shipto_sht_notify_ePicasemai" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkst_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lks9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_notify_options" id="2249" label="PUB_shipto_sht_notify_options" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LktN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lktd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_notify_sub" id="2250" label="PUB_shipto_sht_notify_sub" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lktt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkt9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_phone" id="2251" label="PUB_shipto_sht_phone" length="10" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkuN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkud_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_phone_ext" id="2252" label="PUB_shipto_sht_phone_ext" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkut_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lku9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_region" id="2253" label="PUB_shipto_sht_region" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkvN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkvd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_require_lift" id="2254" label="PUB_shipto_sht_require_lift" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkvt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkv9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_residential" id="2255" label="PUB_shipto_sht_residential" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkwN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkwd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_seq" id="2256" label="PUB_shipto_sht_seq" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkwt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkw9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_shipping_loc" id="2257" label="PUB_shipto_sht_shipping_loc" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkxN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkxd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_state" id="2258" label="PUB_shipto_sht_state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkxt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkx9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_status" id="2259" label="PUB_shipto_sht_status" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkyN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkyd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_subs" id="2260" label="PUB_shipto_sht_subs" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkyt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lky9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_vol" id="2261" label="PUB_shipto_sht_vol" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LkzN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkzd_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_weight_limit" id="2262" label="PUB_shipto_sht_weight_limit" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lkzt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lkz9_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_work_order" id="2263" label="PUB_shipto_sht_work_order" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk0N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk0d_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_zip" id="2264" label="PUB_shipto_sht_zip" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk0t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk09_oEeeSNbmwaIHyjA" name="PUB_shipto_sht_zone" id="2265" label="PUB_shipto_sht_zone" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk1N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk1d_oEeeSNbmwaIHyjA" name="PUB_shipto_sig_required" id="2266" label="PUB_shipto_sig_required" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk1t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk19_oEeeSNbmwaIHyjA" name="PUB_truck_file_cost_per_drop" id="2267" label="PUB_truck_file_cost_per_drop" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk2N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk2d_oEeeSNbmwaIHyjA" name="PUB_truck_file_cost_per_hour" id="2268" label="PUB_truck_file_cost_per_hour" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk2t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk29_oEeeSNbmwaIHyjA" name="PUB_truck_file_cost_per_mile" id="2269" label="PUB_truck_file_cost_per_mile" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk3N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk3d_oEeeSNbmwaIHyjA" name="PUB_truck_file_dist_id" id="2270" label="PUB_truck_file_dist_id" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk3t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk39_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_box" id="2271" label="PUB_truck_file_trk_box" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk4N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk4d_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_code" id="2272" label="PUB_truck_file_trk_code" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk4t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk49_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_desc" id="2273" label="PUB_truck_file_trk_desc" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk5N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk5d_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_filler1" id="2274" label="PUB_truck_file_trk_filler1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk5t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk59_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_filler2" id="2275" label="PUB_truck_file_trk_filler2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk6N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk6d_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_length" id="2276" label="PUB_truck_file_trk_length" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk6t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk69_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_lift_gate" id="2277" label="PUB_truck_file_trk_lift_gate" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk7N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk7d_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_one_way" id="2278" label="PUB_truck_file_trk_one_way" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk7t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk79_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_rack" id="2279" label="PUB_truck_file_trk_rack" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk8N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk8d_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_seq" id="2280" label="PUB_truck_file_trk_seq" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk8t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk89_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_size" id="2281" label="PUB_truck_file_trk_size" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk9N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk9d_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_units" id="2282" label="PUB_truck_file_trk_units" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk9t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk99_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_vol" id="2283" label="PUB_truck_file_trk_vol" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk-N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk-d_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_weight" id="2284" label="PUB_truck_file_trk_weight" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk-t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk-9_oEeeSNbmwaIHyjA" name="PUB_truck_file_trk_width" id="2285" label="PUB_truck_file_trk_width" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk_N_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk_d_oEeeSNbmwaIHyjA" name="PUB_truck_file_v_number" id="2286" label="PUB_truck_file_v_number" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2Lk_t_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2Lk_9_oEeeSNbmwaIHyjA" name="Sales" id="2287" label="Sales" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LlAN_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LlAd_oEeeSNbmwaIHyjA" name="Year" id="2288" label="Year" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LlAt_oEeeSNbmwaIHyjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r2LlA9_oEeeSNbmwaIHyjA" name="oeh_number" id="2289" label="oeh_number" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_r2LlBN_oEeeSNbmwaIHyjA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

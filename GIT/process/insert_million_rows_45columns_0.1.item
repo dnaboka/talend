@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="table_name" prompt="table_name?" promptNeeded="true" type="id_String" value="client"/>
+    <contextParameter comment="" name="workspace" prompt="workspace?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="C:\Users\Dima Naboka\Dropbox\Jasper\ETL\shared_project_63"/>
+  </context>
+  <context confirmationNeeded="false" name="Dev_home">
+    <contextParameter comment="" name="table_name" prompt="table_name?" promptNeeded="true" type="id_String" value="client"/>
+    <contextParameter comment="" name="workspace" prompt="workspace?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="C:\Users\bb\Dropbox\Jasper\ETL\shared_project_63"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/bb/Dropbox/Jasper/ETL/shared_project_63/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_pwtyEP_KEeW1I6LIXkHmcA" name="DataOperation"/>
+    <routinesParameter id="_pxz-QP_KEeW1I6LIXkHmcA" name="Mathematical"/>
+    <routinesParameter id="_px9IMP_KEeW1I6LIXkHmcA" name="Numeric"/>
+    <routinesParameter id="_pyHgQP_KEeW1I6LIXkHmcA" name="Relational"/>
+    <routinesParameter id="_py0q4P_KEeW1I6LIXkHmcA" name="SQLike"/>
+    <routinesParameter id="_pyQDIP_KEeW1I6LIXkHmcA" name="StringHandling"/>
+    <routinesParameter id="_pyYmAP_KEeW1I6LIXkHmcA" name="TalendDataGenerator"/>
+    <routinesParameter id="_pyi-EP_KEeW1I6LIXkHmcA" name="TalendDate"/>
+    <routinesParameter id="_pyrg8P_KEeW1I6LIXkHmcA" name="TalendString"/>
+    <routinesParameter id="__ay3UB1kEei7hdFI_af3eQ" name="TalendStringUtil"/>
+  </parameters>
+  <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlConnection_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_k2UucNW4EeeHqr6b02QU-Q" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;etl_test&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="vQKQEHI7UFnNM8U2yfuIQA=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" show="false"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="800000" show="false"/>
+    <elementParameter field="TABLE" name="VALUES" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="ARRAY" value="Numeric.sequence(&quot;s1&quot; ,1 ,1 )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="first_name"/>
+      <elementValue elementRef="ARRAY" value="TalendDataGenerator.getFirstName()"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="last_name"/>
+      <elementValue elementRef="ARRAY" value="TalendDataGenerator.getLastName()"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="state_address"/>
+      <elementValue elementRef="ARRAY" value="TalendDataGenerator.getUsState()"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date_added"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.getRandomDate(&quot;2007-01-01&quot; ,&quot;2016-12-31&quot; )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn1"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn2"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn3"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn4"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn5"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn6"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn7"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn8"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn9"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn10"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn11"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn12"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn13"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn14"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn15"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn16"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn17"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn18"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn19"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn20"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn21"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn22"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn23"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn24"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn25"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn26"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn27"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn28"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn29"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn30"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn31"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn32"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn33"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn34"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn35"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn36"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn37"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn38"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn39"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn40"/>
+      <elementValue elementRef="ARRAY" value="TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot; ,TalendDate.getCurrentDate() )"/>
+    </elementParameter>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="client" name="tRowGenerator_1">
+      <column comment="" key="true" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;sequence&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;sequence identifier&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;s1\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;start value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;1 &quot;},{&quot;PARAMETER_NAME&quot;:&quot;step&quot;,&quot;PARAMETER_VALUE&quot;:&quot;1 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;Numeric&quot;}"/>
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="-1" name="first_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getFirstName&quot;,&quot;PARAMETERS&quot;:[],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDataGenerator&quot;}"/>
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="-1" name="last_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getLastName&quot;,&quot;PARAMETERS&quot;:[],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDataGenerator&quot;}"/>
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="-1" name="state_address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getUsState&quot;,&quot;PARAMETERS&quot;:[],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDataGenerator&quot;}"/>
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="date_added" nullable="true" pattern="&quot;yyyy-MM-dd hh:mm:ss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getRandomDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;min&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;2007-01-01\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;max&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;2016-12-31\&quot; &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn1" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn2" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn3" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn4" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn5" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn6" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn7" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn8" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn9" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn10" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn11" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn12" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn13" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn14" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn15" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn16" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn17" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn18" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn19" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn20" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn21" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn22" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn23" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn24" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn25" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn26" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn27" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn28" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn29" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn30" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn31" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn32" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn33" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn34" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn35" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn36" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn37" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn38" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn39" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn40" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <additionalProperties key="Comment" value=""/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlOutputBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlOutputBulkExec_2" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_k2UucNW4EeeHqr6b02QU-Q" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;etl_test&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="vQKQEHI7UFnNM8U2yfuIQA=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="context.table_name"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.workspace + &quot;/&quot; + &quot;temp_bulk&quot; "/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="CHECK" name="OIDS" value="false"/>
+    <elementParameter field="CHECK" name="HEADER" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CLOSED_LIST" name="FILETYPE" value="TXTFILE"/>
+    <elementParameter field="TEXT" name="NULLSTRING" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDS_TERMINATED_BY" value="&quot;;&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;\\&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;\&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="STANDARD_CONFORMING_STRING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="FORCENOTNULL" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="first_name"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="last_name"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="state_address"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date_added"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn1"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn2"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn3"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn4"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn5"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn6"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn7"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn8"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn9"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn10"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn11"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn12"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn13"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn14"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn15"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn16"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn17"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn18"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn19"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn20"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn21"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn22"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn23"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn24"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn25"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn26"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn27"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn28"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn29"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn30"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn31"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn32"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn33"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn34"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn35"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn36"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn37"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn38"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn39"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn40"/>
+      <elementValue elementRef="FORCENOTNULL" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="client" name="tPostgresqlOutputBulkExec_2">
+      <column comment="" key="true" length="10" name="id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;sequence&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;sequence identifier&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;s1\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;start value&quot;,&quot;PARAMETER_VALUE&quot;:&quot;1 &quot;},{&quot;PARAMETER_NAME&quot;:&quot;step&quot;,&quot;PARAMETER_VALUE&quot;:&quot;1 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;Numeric&quot;}"/>
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="-1" name="first_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getFirstName&quot;,&quot;PARAMETERS&quot;:[],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDataGenerator&quot;}"/>
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="-1" name="last_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getLastName&quot;,&quot;PARAMETERS&quot;:[],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDataGenerator&quot;}"/>
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="-1" name="state_address" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getUsState&quot;,&quot;PARAMETERS&quot;:[],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDataGenerator&quot;}"/>
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="date_added" nullable="true" pattern="&quot;yyyy-MM-dd hh:mm:ss&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getRandomDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;min&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;2007-01-01\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;max&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;2016-12-31\&quot; &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn1" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn2" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn3" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn4" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn5" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn6" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn7" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn8" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn9" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn10" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn11" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn12" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn13" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn14" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn15" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn16" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn17" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn18" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn19" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn20" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn21" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn22" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn23" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn24" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn25" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn26" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn27" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn28" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn29" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn30" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn31" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn32" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn33" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn34" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn35" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn36" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn37" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn38" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn39" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <column comment="" defaultValue="" key="false" length="-1" name="newColumn40" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;formatDate&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;pattern&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;yyyy-MM-dd HH:mm:ss\&quot; &quot;},{&quot;PARAMETER_NAME&quot;:&quot;date&quot;,&quot;PARAMETER_VALUE&quot;:&quot;TalendDate.getCurrentDate() &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendDate&quot;}"/>
+      </column>
+      <additionalProperties key="Comment" value=""/>
+    </metadata>
+  </node>
+  <node componentName="tFileDelete" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileDelete_1" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.workspace + &quot;/&quot; + &quot;temp_bulk&quot;"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;D:/downloads/ETL/JETL-20161216_1026-V6.3.1/workspace/PROJECT1/delete_folder&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PATH" value="&quot;D:/downloads/ETL/JETL-20161216_1026-V6.3.1/workspace/PROJECT1/delete_folder or delete_file&quot;" show="false"/>
+    <elementParameter field="CHECK" name="FAILON" value="true"/>
+    <elementParameter field="CHECK" name="FOLDER" value="false"/>
+    <elementParameter field="CHECK" name="FOLDER_FILE" value="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note &quot;CURRENT_STATUS&quot; including:&#xA;&quot;File (or path) deleted.&quot;&#xA;&quot;No file (or path) deleted.&quot;&#xA;&quot;File (or path) does not exist or is invalid.&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileDelete_1"/>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostgresqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlConnection_1" target="tRowGenerator_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tPostgresqlOutputBulkExec_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tFileDelete_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlConnection_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileDelete_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

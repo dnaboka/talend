@@ -1,0 +1,26 @@
+package routines;
+
+import java.io.Serializable;
+
+public class HBaseRow extends java.lang.Object implements Serializable{
+    /**
+     * 
+     */
+    private static final long serialVersionUID = 1L;
+    String rowkey;
+    String colqual;
+    byte[] datarow;
+    
+    public void setRowkey(String keyRow) {
+        this.rowkey = keyRow;
+    }
+
+    public void setColqual(String col) {
+        this.colqual = col;
+    }
+
+    public void setDatarow(byte[] val) {
+        this.datarow = val;
+    }
+
+}

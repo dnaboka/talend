@@ -1,0 +1,103 @@
+package routines;
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class Util{
+
+
+  /**
+   * Creates byte array representation of HEX string.<br>
+   * 
+   * @param s
+   *            string to parse
+   * @return
+   */
+  public static byte[] fromHexString(String s) {
+    int length = s.length() / 2;
+    byte[] bytes = new byte[length];
+    for (int i = 0; i < length; i++) {
+      bytes[i] = (byte) ((Character.digit(s.charAt(i * 2), 16) << 4) | Character
+          .digit(s.charAt((i * 2) + 1), 16));
+    }
+    return bytes;
+  }
+
+  /**
+   * Creates HEX String representation of supplied byte array.<br/>
+   * Each byte is represented by a double character element from 00 to ff
+   * 
+   * @param fieldData
+   *            to be tringed
+   * @return
+   */
+  public static String toHexString(byte[] fieldData) {
+    StringBuilder sb = new StringBuilder();
+    for (int i = 0; i < fieldData.length; i++) {
+      int v = (fieldData[i] & 0xFF);
+      if (v <= 0xF) {
+        sb.append("0");
+      }
+      sb.append(Integer.toHexString(v));
+    }
+    return sb.toString();
+  }
+  public static String convertHexToString(String hex){
+
+	  String ascii="";
+	  String str;
+
+	  // Convert hex string to "even" length
+	  int rmd,length;
+	  length=hex.length();
+	  rmd =length % 2;
+	  if(rmd==1)
+	  hex = "0"+hex;
+
+	   // split into two characters
+	   for( int i=0; i<hex.length()-1; i+=2 ){
+
+	       //split the hex into pairs
+	       String pair = hex.substring(i, (i + 2));
+	       //convert hex to decimal
+	       int dec = Integer.parseInt(pair, 16);
+	       str=CheckCode(dec);
+	       ascii=ascii+" "+str;
+	   }
+	   return ascii;
+	 }
+  public static String CheckCode(int dec){
+	  String str;
+
+	          //convert the decimal to character
+	        str = Character.toString((char) dec);
+
+	      if(dec<32 || dec>126 && dec<161)
+	             str="n/a";  
+	  return str;
+  
+  
+}
+  
+  public static String convertHexToString2(String hex){
+
+	  StringBuilder sb = new StringBuilder();
+	  StringBuilder temp = new StringBuilder();
+
+	  //49204c6f7665204a617661 split into two characters 49, 20, 4c...
+	  for( int i=0; i<hex.length()-1; i+=2 ){
+
+	      //grab the hex in pairs
+	      String output = hex.substring(i, (i + 2));
+	      //convert hex to decimal
+	      int decimal = Integer.parseInt(output, 16);
+	      //convert the decimal to character
+	      sb.append((char)decimal);
+
+	      temp.append(decimal);
+	  }
+	  System.out.println("Decimal : " + temp.toString());
+
+	  return sb.toString();
+  }
+}

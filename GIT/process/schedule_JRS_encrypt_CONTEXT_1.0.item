@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Dev" jobType="Standard">
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="base-64 encoded &quot;user:password&quot;" name="auth_encoded" prompt="auth_encoded?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="Basic c3VwZXJ1c2VyOnN1cGVydXNlcg=="/>
+    <contextParameter comment="" name="hostname" prompt="hostname?" promptNeeded="false" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="jrs_url" prompt="jrs_url?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="http://localhost:8080/jasperserver-pro"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_Integer" value="8080"/>
+    <contextParameter comment="" name="workspace" prompt="workspace?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="C:\Users\Dima Naboka\Dropbox\Jasper\ETL\shared_project_63"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/bb/Dropbox/Jasper/ETL/shared_project_63/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_kWr4AJq6EeaMzbpqpu5ewQ" name="DataOperation"/>
+    <routinesParameter id="_kXDEYJq6EeaMzbpqpu5ewQ" name="Mathematical"/>
+    <routinesParameter id="_kXaQwJq6EeaMzbpqpu5ewQ" name="Numeric"/>
+    <routinesParameter id="_kXphUJq6EeaMzbpqpu5ewQ" name="Relational"/>
+    <routinesParameter id="_kVMDMJq6EeaMzbpqpu5ewQ" name="SQLike"/>
+    <routinesParameter id="_kX3jwJq6EeaMzbpqpu5ewQ" name="StringHandling"/>
+    <routinesParameter id="_kYG0UJq6EeaMzbpqpu5ewQ" name="TalendDataGenerator"/>
+    <routinesParameter id="_kYVd0Jq6EeaMzbpqpu5ewQ" name="TalendDate"/>
+    <routinesParameter id="_kYoYwJq6EeaMzbpqpu5ewQ" name="TalendString"/>
+  </parameters>
+  <node componentName="tWaitForFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWaitForFile_1" show="false"/>
+    <elementParameter field="TEXT" name="WAIT" value="1"/>
+    <elementParameter field="TEXT" name="MAX_ITERATIONS" value=""/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.workspace"/>
+    <elementParameter field="TEXT" name="FILEMASK" value="&quot;*&quot;"/>
+    <elementParameter field="CHECK" name="INCLUDE_SUBDIR" value="false"/>
+    <elementParameter field="CHECK" name="CASE_SENSITIVE" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDE_PRESENT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON" value="filecreated"/>
+    <elementParameter field="CLOSED_LIST" name="THEN" value="exitloop"/>
+    <elementParameter field="CHECK" name="WAIT_RELEASE" value="false"/>
+    <elementParameter field="TEXT" name="INTERVAL_CHECK" value="500" show="false"/>
+    <elementParameter field="CHECK" name="NON_UPDATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWaitForFile_1">
+      <column defaultValue="" key="false" length="0" name="CURRENT_ITERATION" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="255" name="PRESENT_FILE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="255" name="DELETED_FILE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="255" name="CREATED_FILE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="255" name="UPDATED_FILE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="255" name="FILENAME" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="255" name="NOT_UPDATED_FILE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileArchive" componentVersion="0.101" offsetLabelX="7" offsetLabelY="-3" posX="256" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileArchive_1" show="false"/>
+    <elementParameter field="DIRECTORY" name="SOURCE" value="context.workspace"/>
+    <elementParameter field="FILE" name="SOURCE_FILE" value="&quot;D:/downloads/ETL/JETL-20160704_1411-V6.2.1/workspace/source.csv&quot;" show="false"/>
+    <elementParameter field="CHECK" name="SUB_DIRECTROY" value="true"/>
+    <elementParameter field="FILE" name="TARGET" value="&quot;D:/downloads/ETL/JETL-20160704_1411-V6.2.1/workspace/JRS_scheduled_reports/report_output.zip&quot;"/>
+    <elementParameter field="CHECK" name="MKDIR" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ARCHIVE_FORMAT" value="zip"/>
+    <elementParameter field="CLOSED_LIST" name="LEVEL" value="4"/>
+    <elementParameter field="CHECK" name="ALL_FILES" value="false"/>
+    <elementParameter field="TABLE" name="MASK">
+      <elementValue elementRef="FILEMASK" value="&quot;*.pdf&quot;"/>
+      <elementValue elementRef="FILEMASK" value="&quot;*.xlsx&quot;"/>
+    </elementParameter>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="OVERWRITE" value="true"/>
+    <elementParameter field="CHECK" name="ENCRYPT_FILES" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ENCRYPT_METHOD" value="ENC_METHOD_STANDARD"/>
+    <elementParameter field="CLOSED_LIST" name="AES_KEY_STRENGTH" value="AES_STRENGTH_256" show="false"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="PoLvNyVG2XWndNDdLn696A=="/>
+    <elementParameter field="CLOSED_LIST" name="ZIP64_MODE" value="ASNEEDED" show="false"/>
+    <elementParameter field="CHECK" name="USE_SYNC_FLUSH" value="false" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileArchive_1">
+      <column defaultValue="" key="false" length="0" name="CURRENT_ITERATION" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="PRESENT_FILE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="DELETED_FILE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="CREATED_FILE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="UPDATED_FILE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="FILENAME" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="NOT_UPDATED_FILE" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tREST" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tREST_2" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="context.jrs_url + &quot;/rest_v2/jobs/&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="METHOD" value="PUT"/>
+    <elementParameter field="TABLE" name="HEADERS">
+      <elementValue elementRef="NAME" value="&quot;Content-Type&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;application/job+json&quot;"/>
+      <elementValue elementRef="NAME" value="&quot;Authorization&quot;"/>
+      <elementValue elementRef="VALUE" value="context.auth_encoded"/>
+    </elementParameter>
+    <elementParameter field="MEMO" name="BODY" value="&quot;{&#xD;&#xA;        \&quot;label\&quot;: \&quot;ETL JOB: immidiate PDF/XLSX output\&quot;,&#xD;&#xA;        \&quot;trigger\&quot;:&#xD;&#xA;        {&#xD;&#xA;            \&quot;simpleTrigger\&quot;:&#xD;&#xA;            {&#xD;&#xA;                \&quot;id\&quot;: context.export_id,&#xD;&#xA;                \&quot;version\&quot;: 1,&#xD;&#xA;                \&quot;timezone\&quot;: \&quot;Europe/Helsinki\&quot;,&#xD;&#xA;                \&quot;startType\&quot;: 1,&#xD;&#xA;                \&quot;misfireInstruction\&quot;: 0,&#xD;&#xA;                \&quot;occurrenceCount\&quot;: 1&#xD;&#xA;            }&#xD;&#xA;        },&#xD;&#xA;        \&quot;source\&quot;:&#xD;&#xA;        {&#xD;&#xA;            \&quot;reportUnitURI\&quot;: \&quot;/public/Samples/Reports/01._Geographic_Results_by_Segment_Report\&quot;,&#xD;&#xA;            \&quot;parameters\&quot;:&#xD;&#xA;            {&#xD;&#xA;                \&quot;parameterValues\&quot;:&#xD;&#xA;                {&#xD;&#xA;                    \&quot;sales__product__product_name_1\&quot;:&#xD;&#xA;                    {&#xD;&#xA;                        \&quot;item\&quot;:&#xD;&#xA;                        [&#xD;&#xA;                        ]&#xD;&#xA;                    },&#xD;&#xA;                    \&quot;REPORT_TIME_ZONE\&quot;: \&quot;Europe/Helsinki\&quot;,&#xD;&#xA;                    \&quot;sales__product__recyclable_package_1\&quot;:&#xD;&#xA;                    {&#xD;&#xA;                        \&quot;item\&quot;:&#xD;&#xA;                        [&#xD;&#xA;                            \&quot;true\&quot;,&#xD;&#xA;                            \&quot;false\&quot;&#xD;&#xA;                        ]&#xD;&#xA;                    },&#xD;&#xA;                    \&quot;sales_fact_ALL__store_sales_2013_1\&quot;: 19,&#xD;&#xA;                    \&quot;sales__product__low_fat_1\&quot;:&#xD;&#xA;                    {&#xD;&#xA;                        \&quot;item\&quot;:&#xD;&#xA;                        [&#xD;&#xA;                            \&quot;true\&quot;,&#xD;&#xA;                            \&quot;false\&quot;&#xD;&#xA;                        ]&#xD;&#xA;                    }&#xD;&#xA;                }&#xD;&#xA;            }&#xD;&#xA;        },&#xD;&#xA;        \&quot;baseOutputFilename\&quot;: \&quot;01._Geographic_Results_by_Segment_Report\&quot;,&#xD;&#xA;        \&quot;alert\&quot;:&#xD;&#xA;        {&#xD;&#xA;            \&quot;id\&quot;: 0,&#xD;&#xA;            \&quot;version\&quot;: -1,&#xD;&#xA;            \&quot;recipient\&quot;: \&quot;OWNER_AND_ADMIN\&quot;,&#xD;&#xA;            \&quot;toAddresses\&quot;:&#xD;&#xA;            {&#xD;&#xA;                \&quot;address\&quot;:&#xD;&#xA;                [&#xD;&#xA;                    \&quot;dnaboka@tibco.com\&quot;&#xD;&#xA;                ]&#xD;&#xA;            },&#xD;&#xA;            \&quot;jobState\&quot;: \&quot;NONE\&quot;,&#xD;&#xA;            \&quot;messageText\&quot;: \&quot;\&quot;,&#xD;&#xA;            \&quot;messageTextWhenJobFails\&quot;: \&quot;\&quot;,&#xD;&#xA;            \&quot;subject\&quot;: \&quot;job status notification\&quot;,&#xD;&#xA;            \&quot;includingStackTrace\&quot;: false,&#xD;&#xA;            \&quot;includingReportJobInfo\&quot;: false&#xD;&#xA;        },&#xD;&#xA;        \&quot;outputTimeZone\&quot;: \&quot;Europe/Helsinki\&quot;,&#xD;&#xA;        \&quot;repositoryDestination\&quot;:&#xD;&#xA;        {&#xD;&#xA;            \&quot;id\&quot;: context.export_id,&#xD;&#xA;            \&quot;version\&quot;: 1,&#xD;&#xA;            \&quot;folderURI\&quot;: \&quot;/public/Samples/Reports\&quot;,&#xD;&#xA;            \&quot;sequentialFilenames\&quot;: true,&#xD;&#xA;            \&quot;overwriteFiles\&quot;: false,&#xD;&#xA;            \&quot;timestampPattern\&quot;: \&quot;yyyyMMddHHmm\&quot;,&#xD;&#xA;            \&quot;saveToRepository\&quot;: false,&#xD;&#xA;            \&quot;usingDefaultReportOutputFolderURI\&quot;: false,&#xD;&#xA;            \&quot;outputLocalFolder\&quot;: \&quot;C:/Users/Dima\ Naboka/Dropbox/Jasper/ETL/shared_project_63\&quot;,&#xD;&#xA;            \&quot;outputFTPInfo\&quot;:&#xD;&#xA;            {&#xD;&#xA;                \&quot;userName\&quot;: \&quot;anonymous\&quot;,&#xD;&#xA;                \&quot;type\&quot;: \&quot;ftp\&quot;,&#xD;&#xA;                \&quot;port\&quot;: 21,&#xD;&#xA;                \&quot;implicit\&quot;: true,&#xD;&#xA;                \&quot;pbsz\&quot;: 0&#xD;&#xA;            }&#xD;&#xA;        },&#xD;&#xA;        \&quot;outputFormats\&quot;:&#xD;&#xA;        {&#xD;&#xA;            \&quot;outputFormat\&quot;:&#xD;&#xA;            [&#xD;&#xA;                \&quot;PDF\&quot;,&#xD;&#xA;                \&quot;XLSX_NOPAG\&quot;,&#xD;&#xA;                \&quot;CSV\&quot;&#xD;&#xA;            ]&#xD;&#xA;        }&#xD;&#xA;    }&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tREST_2">
+      <column key="false" length="0" name="Body" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="ERROR_CODE" nullable="true" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="256" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_M9sYAAA2EeeslqqqIL8S8A-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="body" name="body">
+      <column key="false" length="0" name="Body" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="body">
+        <mapperTableEntries name="Body" expression="row2.Body " type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="Body" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ERROR_CODE" type="id_Integer" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tExtractJSONFields" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tExtractJSONFields_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_POX8cKhDEeejcZ4YOKfXRg" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_POX8cKhDEeejcZ4YOKfXRg - rest_exportALL" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="READ_BY" value="XPATH"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="JSONFIELD" value="Body"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/&quot;"/>
+    <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;/&quot;" show="false"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="QUERY" value="&quot;id&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="ISARRAY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="message"/>
+      <elementValue elementRef="QUERY" value="&quot;message&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="ISARRAY" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="phase"/>
+      <elementValue elementRef="QUERY" value="&quot;phase&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="ISARRAY" value=""/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="MAPPING_4_JSONPATH" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="QUERY" value="&quot;id&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="message"/>
+      <elementValue elementRef="QUERY" value="&quot;message&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="phase"/>
+      <elementValue elementRef="QUERY" value="&quot;phase&quot;"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="DESTINATION" value="tExtractJSONFields_1" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="rest_exportALL" name="tExtractJSONFields_1">
+      <column comment="" key="true" length="36" name="id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="message" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="phase" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="rest_exportALL" name="REJECT">
+      <column comment="" key="true" length="36" name="id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="message" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="phase" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorJSONField" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFlowToIterate_1" show="false"/>
+    <elementParameter field="CHECK" name="DEFAULT_MAP" value="false"/>
+    <elementParameter field="TABLE" name="MAP">
+      <elementValue elementRef="KEY" value="export_id"/>
+      <elementValue elementRef="VALUE" value="id"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFlowToIterate_1"/>
+  </node>
+  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
+    <elementParameter field="TEXT" name="TO" value="&quot;username@company.com&quot;"/>
+    <elementParameter field="TEXT" name="FROM" value="&quot;username@company.com&quot;"/>
+    <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
+    <elementParameter field="TEXT" name="PERSONAL_NAME" value="&quot;sender&quot;" show="false"/>
+    <elementParameter field="TEXT" name="CC" value=""/>
+    <elementParameter field="TEXT" name="BCC" value=""/>
+    <elementParameter field="TEXT" name="SUBJECT" value="&quot;Talend Open Studio notification&quot;"/>
+    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;Hello,\nPlease find report output attached&quot;"/>
+    <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
+    <elementParameter field="TABLE" name="ATTACHMENTS">
+      <elementValue elementRef="FILE" value="&quot;D:/downloads/ETL/JETL-20160704_1411-V6.2.1/workspace/JRS_scheduled_reports/report_output.zip&quot;"/>
+      <elementValue elementRef="CONTENT_TRANSFER_ENCODING" value="DEFAULT"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="HEADERS"/>
+    <elementParameter field="TEXT" name="SMTP_HOST" value="&quot;smtp.gmail.com&quot;"/>
+    <elementParameter field="TEXT" name="SMTP_PORT" value="465"/>
+    <elementParameter field="CHECK" name="SSL" value="true"/>
+    <elementParameter field="CHECK" name="STARTTLS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username@company.com&quot;"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="PoLvNyVG2XWndNDdLn696A=="/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SET_LOCALHOST" value="false"/>
+    <elementParameter field="TEXT" name="LOCALHOST" value="&quot;localhost&quot;" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSendMail_1"/>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tWaitForFile_1" offsetLabelX="0" offsetLabelY="0" source="tWaitForFile_1" target="tFileArchive_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileArchive_1" offsetLabelX="0" offsetLabelY="0" source="tFileArchive_1" target="tSendMail_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tREST_2" offsetLabelX="0" offsetLabelY="0" source="tREST_2" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tREST_2" offsetLabelX="0" offsetLabelY="0" source="tREST_2" target="tWaitForFile_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="body" lineStyle="0" metaname="body" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tExtractJSONFields_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="body" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tExtractJSONFields_1" offsetLabelX="0" offsetLabelY="0" source="tExtractJSONFields_1" target="tFlowToIterate_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWaitForFile_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tREST_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSendMail_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>
