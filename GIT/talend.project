@@ -176,6 +176,7 @@
       <relatedItems xmi:id="_HVDti2_KEei2SPdcaXltIg" id="BigSmallString" version="Latest" type="routine"/>
       <relatedItems xmi:id="_HVDtjG_KEei2SPdcaXltIg" id="getByteLength" version="Latest" type="routine"/>
       <relatedItems xmi:id="_HVDtjW_KEei2SPdcaXltIg" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_TbxAoG_KEei2SPdcaXltIg" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_HVDtjm_KEei2SPdcaXltIg">
       <baseItem xmi:id="_HVDtj2_KEei2SPdcaXltIg" id="_5swL8C22EeiNa-Fq_7kBPw" version="0.1" type="job"/>
