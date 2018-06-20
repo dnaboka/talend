@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
   <talendfile:ContextType xmi:id="_HMKQMG_KEei2SPdcaXltIg" confirmationNeeded="false" name="Dev">
-    <contextParameter xmi:id="_HMKQMW_KEei2SPdcaXltIg" comment="" name="workspace" prompt="workspace?" promptNeeded="true" type="id_String" value="C:\Users\Dima Naboka\Dropbox\Jasper\ETL\shared_project_63"/>
+    <contextParameter xmi:id="_HMKQMW_KEei2SPdcaXltIg" comment="" name="workspace" prompt="workspace?" promptNeeded="true" type="id_String" value="C:\Users\Dima Naboka\Dropbox\Jasper\ETL"/>
     <contextParameter xmi:id="_HMKQMm_KEei2SPdcaXltIg" comment="" name="jrs_url" prompt="jrs_url?" promptNeeded="true" type="id_String" value="http://localhost:8080/jasperserver-pro"/>
     <contextParameter xmi:id="_HMKQM2_KEei2SPdcaXltIg" comment="" name="hostname" prompt="hostname?" promptNeeded="false" type="id_String" value="localhost"/>
     <contextParameter xmi:id="_HMKQNG_KEei2SPdcaXltIg" comment="base-64 encoded &quot;user:password&quot;" name="auth_encoded" prompt="auth_encoded?" promptNeeded="true" type="id_String" value="Basic c3VwZXJ1c2VyOnN1cGVydXNlcg=="/>
