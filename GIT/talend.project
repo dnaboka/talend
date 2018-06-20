@@ -145,6 +145,7 @@
       <relatedItems xmi:id="_HVDGpm_KEei2SPdcaXltIg" id="fileload" version="Latest" type="routine"/>
       <relatedItems xmi:id="_HVDGp2_KEei2SPdcaXltIg" id="BigSmallString" version="Latest" type="routine"/>
       <relatedItems xmi:id="_HVDGqG_KEei2SPdcaXltIg" id="_POX8cKhDEeejcZ4YOKfXRg - rest_exportALL" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_Wn7vkHSJEeiG9YFb_gyixg" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_HVDGqW_KEei2SPdcaXltIg">
       <baseItem xmi:id="_HVDGqm_KEei2SPdcaXltIg" id="_MGzKQJobEeetWZbdftn83g" version="0.1" type="job"/>
