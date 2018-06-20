@@ -9,17 +9,17 @@
   </context>
   <context confirmationNeeded="false" name="Test">
     <contextParameter comment="base-64 encoded &quot;user:password&quot;" name="auth_encoded" prompt="auth_encoded?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="Basic c3VwZXJ1c2VyOnN1cGVydXNlcg=="/>
-    <contextParameter comment="" name="hostname" prompt="hostname?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="infra-platforms-phase2-302-dnaboka.pfa.jaspersoft.com"/>
-    <contextParameter comment="" name="jrs_url" prompt="jrs_url?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="http://infra-platforms-phase2-302-dnaboka.pfa.jaspersoft.com:8080/jasperserver-pro"/>
+    <contextParameter comment="" name="hostname" prompt="hostname?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="infra-platforms-phase2-1771-dnaboka.pfa.jaspersoft.com"/>
+    <contextParameter comment="" name="jrs_url" prompt="jrs_url?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="http://infra-platforms-phase2-1771-dnaboka.pfa.jaspersoft.com:8080/jasperserver-pro"/>
     <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_Integer" value="8080"/>
-    <contextParameter comment="" name="workspace" prompt="workspace?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="C:\Users\Dima Naboka\Dropbox\Jasper\ETL\shared_project_63"/>
+    <contextParameter comment="" name="workspace" prompt="workspace?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="C:\Users\Dima Naboka\Dropbox\Jasper\ETL"/>
   </context>
   <context confirmationNeeded="false" name="Dev_home">
     <contextParameter comment="base-64 encoded &quot;user:password&quot;" name="auth_encoded" prompt="auth_encoded?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="Basic c3VwZXJ1c2VyOnN1cGVydXNlcg=="/>
     <contextParameter comment="" name="hostname" prompt="hostname?" promptNeeded="false" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="&quot;localhost&quot;"/>
     <contextParameter comment="" name="jrs_url" prompt="jrs_url?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="http://localhost:8084/jasperserver-pro"/>
     <contextParameter comment="" name="port" prompt="port?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_Integer" value="8084"/>
-    <contextParameter comment="" name="workspace" prompt="workspace?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="C:\Users\bb\Dropbox\Jasper\ETL\shared_project_63"/>
+    <contextParameter comment="" name="workspace" prompt="workspace?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="C:\Users\bb\Dropbox\Jasper\ETL"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -622,11 +622,13 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
+    <elementParameter field="CHECK" name="COLLAPSED" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLoop_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
+    <elementParameter field="CHECK" name="COLLAPSED" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tREST_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
