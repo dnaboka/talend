@@ -5,7 +5,7 @@
     <contextParameter comment="" name="hostname" prompt="hostname?" promptNeeded="false" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="localhost"/>
     <contextParameter comment="" name="jrs_url" prompt="jrs_url?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="http://localhost:8080/jasperserver-pro"/>
     <contextParameter comment="" name="port" prompt="port?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_Integer" value="8080"/>
-    <contextParameter comment="" name="workspace" prompt="workspace?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="C:\Users\Dima Naboka\Dropbox\Jasper\ETL\shared_project_63"/>
+    <contextParameter comment="" name="workspace" prompt="workspace?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="C:\Users\Dima Naboka\Dropbox\Jasper\ETL"/>
   </context>
   <context confirmationNeeded="false" name="Test">
     <contextParameter comment="base-64 encoded &quot;user:password&quot;" name="auth_encoded" prompt="auth_encoded?" promptNeeded="true" repositoryContextId="_ZYK2gJyIEee6wuFHmmo-mQ" type="id_String" value="Basic c3VwZXJ1c2VyOnN1cGVydXNlcg=="/>
