@@ -8,16 +8,16 @@
     <contextParameter xmi:id="_HMKQNW_KEei2SPdcaXltIg" comment="" name="port" prompt="port?" promptNeeded="true" type="id_Integer" value="8080"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_HMKQNm_KEei2SPdcaXltIg" confirmationNeeded="false" name="Dev_home">
-    <contextParameter xmi:id="_HMKQN2_KEei2SPdcaXltIg" comment="" name="workspace" prompt="workspace?" promptNeeded="true" type="id_String" value="C:\Users\bb\Dropbox\Jasper\ETL\shared_project_63"/>
+    <contextParameter xmi:id="_HMKQN2_KEei2SPdcaXltIg" comment="" name="workspace" prompt="workspace?" promptNeeded="true" type="id_String" value="C:\Users\bb\Dropbox\Jasper\ETL"/>
     <contextParameter xmi:id="_HMKQOG_KEei2SPdcaXltIg" comment="" name="jrs_url" prompt="jrs_url?" promptNeeded="true" type="id_String" value="http://localhost:8084/jasperserver-pro"/>
     <contextParameter xmi:id="_HMKQOW_KEei2SPdcaXltIg" comment="" name="hostname" prompt="hostname?" promptNeeded="false" type="id_String" value="&quot;localhost&quot;"/>
     <contextParameter xmi:id="_HMKQOm_KEei2SPdcaXltIg" comment="base-64 encoded &quot;user:password&quot;" name="auth_encoded" prompt="auth_encoded?" promptNeeded="true" type="id_String" value="Basic c3VwZXJ1c2VyOnN1cGVydXNlcg=="/>
     <contextParameter xmi:id="_HMKQO2_KEei2SPdcaXltIg" comment="" name="port" prompt="port?" promptNeeded="true" type="id_Integer" value="8084"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_HMKQPG_KEei2SPdcaXltIg" confirmationNeeded="false" name="Test">
-    <contextParameter xmi:id="_HMKQPW_KEei2SPdcaXltIg" comment="" name="workspace" prompt="workspace?" promptNeeded="true" type="id_String" value="C:\Users\Dima Naboka\Dropbox\Jasper\ETL\shared_project_63"/>
-    <contextParameter xmi:id="_HMKQPm_KEei2SPdcaXltIg" comment="" name="jrs_url" prompt="jrs_url?" promptNeeded="true" type="id_String" value="http://infra-platforms-phase2-302-dnaboka.pfa.jaspersoft.com:8080/jasperserver-pro"/>
-    <contextParameter xmi:id="_HMKQP2_KEei2SPdcaXltIg" comment="" name="hostname" prompt="hostname?" promptNeeded="true" type="id_String" value="infra-platforms-phase2-302-dnaboka.pfa.jaspersoft.com"/>
+    <contextParameter xmi:id="_HMKQPW_KEei2SPdcaXltIg" comment="" name="workspace" prompt="workspace?" promptNeeded="true" type="id_String" value="C:\Users\Dima Naboka\Dropbox\Jasper\ETL"/>
+    <contextParameter xmi:id="_HMKQPm_KEei2SPdcaXltIg" comment="" name="jrs_url" prompt="jrs_url?" promptNeeded="true" type="id_String" value="http://infra-platforms-phase2-1771-dnaboka.pfa.jaspersoft.com:8080/jasperserver-pro"/>
+    <contextParameter xmi:id="_HMKQP2_KEei2SPdcaXltIg" comment="" name="hostname" prompt="hostname?" promptNeeded="true" type="id_String" value="infra-platforms-phase2-1771-dnaboka.pfa.jaspersoft.com"/>
     <contextParameter xmi:id="_HMKQQG_KEei2SPdcaXltIg" comment="base-64 encoded &quot;user:password&quot;" name="auth_encoded" prompt="auth_encoded?" promptNeeded="true" type="id_String" value="Basic c3VwZXJ1c2VyOnN1cGVydXNlcg=="/>
     <contextParameter xmi:id="_HMKQQW_KEei2SPdcaXltIg" comment="" name="port" prompt="port?" promptNeeded="false" type="id_Integer" value="8080"/>
   </talendfile:ContextType>
