@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_L2bIoAVMEeqZSYs3YglDmw" label="BI" description="" language="java" technicalLabel="BI" creationDate="2019-11-12T14:58:21.111+0200" author="_L2bIoQVMEeqZSYs3YglDmw" productVersion="TIBCO Jaspersoft ETL-7.1.1.20181026_1147" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/dnaboka/talend.git&quot;,&quot;login&quot;:&quot;d.naboka@gmail.com&quot;,&quot;passwd&quot;:&quot;SQP0NfWn7IJ+n5ng99ZKVA==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" bigData="false">
+    <migrationTask xmi:id="_L4SJ0AVMEeqZSYs3YglDmw" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_L2bIoQVMEeqZSYs3YglDmw" login="admin@company.com" firstName="security" lastName="security" type="DI" additionnalData="{}"/>
+</xmi:XMI>
